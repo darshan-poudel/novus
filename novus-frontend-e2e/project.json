@@ -1,0 +1,9 @@
+{
+  "name": "novus-frontend-e2e",
+  "$schema": "../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "novus-frontend-e2e/src",
+  "implicitDependencies": ["novus-frontend"],
+  "// targets": "to see all targets run: nx show project novus-frontend-e2e --web",
+  "targets": {}
+}

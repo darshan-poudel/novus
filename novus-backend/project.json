@@ -1,0 +1,24 @@
+{
+  "name": "novus-backend",
+  "$schema": "../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "novus-backend/src",
+  "projectType": "application",
+  "tags": [],
+  "targets": {
+    "serve": {
+      "executor": "@nx/js:node",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "novus-backend:build"
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "novus-backend:build:development"
+        },
+        "production": {
+          "buildTarget": "novus-backend:build:production"
+        }
+      }
+    }
+  }
+}

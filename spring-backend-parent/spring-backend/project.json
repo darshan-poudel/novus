@@ -1,0 +1,6 @@
+{
+  "name": "spring-backend",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "/spring-backend-parent/spring-backend/src",
+  "tags": []
+}
